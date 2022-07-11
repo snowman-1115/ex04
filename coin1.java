@@ -14,7 +14,7 @@ public class coin1 {
             }       
             else if(num%2 == 1){
                 System.out.println("Round " + i + ": Tails"); 
-                 tail++;                 
+                 tail++;   head++;              
             }
         }   
     System.out.println("Heads: " + head + ", Tails: " + tail);
