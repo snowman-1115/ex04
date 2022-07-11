@@ -7,12 +7,12 @@ public class coin1 {
         int tail = 0;
         for(int i = 1; i <= 3; i++){
             Random coin = new Random();
-            int num = coin.nextInt(2);
-            if(num == 0){
+            int num = coin.nextInt(5);
+            if(num%2 == 0){
                 System.out.println("Round " + i + ": Heads");
                 head++;
             }       
-            else if(num == 1){
+            else if(num%2 == 1){
                 System.out.println("Round " + i + ": Tails"); 
                  tail++;                 
             }
